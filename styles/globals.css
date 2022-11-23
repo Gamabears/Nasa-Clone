@@ -201,10 +201,9 @@ section {
 footer {
   
   position :relative;
-  height: 100px;
-  top:50%;
+ 
   padding:55px;
-  transform: translateY(-15%);
+  
 }
 
 footer ul{
@@ -358,6 +357,70 @@ footer ul li a hover{
 .mobile-main-menu ul li a:hover{
   color:#aaa;
 }
+
+
+
+/* Inner Pages */
+.bg-falcon-9{
+  background-image: url('../public/image/falcon-9.webp');
+}
+
+.bg-falcon-heavy{
+  background-image: url('../public/image/falcon-heavy.webp');
+}
+
+.bg-dragon{
+  background-image: url('../public/image/dragon.webp');
+}
+
+
+.section-animate{
+  animation:fadeIn 2s ease-in-out;
+}
+
+.section-inner-center{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+}
+
+.section-inner-center h3{
+  font-size: 100px;
+  margin-bottom:15px;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.section-inner-center p{
+  font-size: 20px;
+  animation: fadeInUp 0.5s ease-in-out 0.2s;
+  animation-fill-mode:both
+}
+
+.stats{
+  max-width: 960px;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stats div span{
+  font-size: 160px;
+
+}
+
+.stats div h4{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
 /* Animations*/
 
 @keyframes fadeInUp{
@@ -368,6 +431,17 @@ footer ul li a hover{
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn{
+  0% {  opacity: 0;
+    
+
+  }
+  100% {
+    opacity: 1;
+   
   }
 }
 
@@ -400,6 +474,10 @@ footer ul li a hover{
   .mobile-only{
     display: block;
   }
+
+  .section-inner-center h3{
+    font-size: 75px;
+  }
 }
 
 @media(max-width:600px){
@@ -426,6 +504,14 @@ footer ul li a hover{
   .logo{
     width:150px;
     margin:auto;
+  }
+
+  .section-inner-center h3{
+    font-size: 50px;
+  }
+
+  .section-inner-center{
+    width: 80%;
   }
 
 }
