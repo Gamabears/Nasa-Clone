@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import Link from 'next/link'
 
 
 function Header() {
@@ -53,9 +54,9 @@ function Header() {
     </div>
     <header className='main-header'>
         <div className='logo'>
-            <a href = '/'>
-                <img src = "/image/logo.png" alt = "SpaceX" />
-            </a>
+            <Link href = '/' >
+                <img src = "/image/logo.png" alt = "SpaceX" style = {{cursor:"pointer"}}/>
+            </Link>
         </div>
         <nav className='desktop-main-menu'>
             <ul>

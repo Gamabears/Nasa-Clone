@@ -11,7 +11,7 @@ function falconheavy() {
     <section className='section-animate bg-falcon-heavy'></section>
     <div className='section-inner-center'>
         <h3>Falcon Heavy</h3>
-        <p>The world's most powerful rocket</p>
+        <p>The world`s most powerful rocket</p>
     </div>
 
     <div className='stats'>
