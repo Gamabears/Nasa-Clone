@@ -362,15 +362,15 @@ footer ul li a hover{
 
 /* Inner Pages */
 .bg-falcon-9{
-  background-image: url('../public/image/falcon-9.webp');
+  background-image: url('../public/image/falcon-9.png');
 }
 
 .bg-falcon-heavy{
-  background-image: url('../public/image/falcon-heavy.webp');
+  background-image: url('../public/image/falcon-heavy.png');
 }
 
 .bg-dragon{
-  background-image: url('../public/image/dragon.webp');
+  background-image: url('../public/image/dragon.png');
 }
 
 
