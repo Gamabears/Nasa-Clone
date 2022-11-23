@@ -27,13 +27,13 @@ function Header() {
                 <a href = '#'>Shop</a>
             </li>
                 <li className='mobile-only'>
-                    <a href = "/falcon9">Falcon 9</a>
+                    <Link href = "/falcon9">Falcon 9</Link>
                 </li >
                 <li className='mobile-only'>
-                    <a href = "/falcon-heavy">Falcon Heavy</a>
+                    <Link href = "/falcon-heavy">Falcon Heavy</Link>
                 </li>
                 <li className='mobile-only'>
-                    <a href = "/dragon">Dragon</a>
+                    <Link href = "/dragon">Dragon</Link>
                 </li>
                 <li className='mobile-only'>
                     <a href = "#">Starship</a>
