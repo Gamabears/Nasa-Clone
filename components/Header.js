@@ -61,13 +61,13 @@ function Header() {
         <nav className='desktop-main-menu'>
             <ul>
                 <li>
-                    <a href = "/falcon9">Falcon 9</a>
+                    <Link href = "/falcon9">Falcon 9</Link>
                 </li>
                 <li>
-                    <a href = "/falcon-heavy">Falcon Heavy</a>
+                    <Link href = "/falcon-heavy">Falcon Heavy</Link>
                 </li>
                 <li>
-                    <a href = "/dragon">Dragon</a>
+                    <Link href = "/dragon">Dragon</Link>
                 </li>
                 <li>
                     <a href = "#">Starship</a>
