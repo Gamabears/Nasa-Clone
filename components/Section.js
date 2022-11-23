@@ -1,9 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Section() {
   return (
     <>
-    <section className='section-a'>
+    <section >
+      <Image src = '/image/section-a.webp' alt = 'section-a' layout='fill'></Image>
         <div className='section-inner'>
             <h4>
                 Upcoming Launch
