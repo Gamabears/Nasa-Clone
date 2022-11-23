@@ -2,13 +2,14 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CountUp from 'react-countup';
+import Image from 'next/image';
 
 
 function dragon() {
   return (
     <>
     <Header />
-    <section className='section-animate bg-dragon'></section>
+    <section className='section-animate'><Image src = '/image/falcon-9.webp' alt = 'section-a' layout='fill'></Image></section>
     <div className='section-inner-center'>
         <h3>Dragon</h3>
         <p>Sending humans and cargo into space</p>

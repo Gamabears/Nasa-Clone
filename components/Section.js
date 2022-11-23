@@ -32,7 +32,8 @@ function Section() {
         </div>
     </section>
 
-    <section className='section-b'>
+    <section >
+    <Image src = '/image/section-b.webp' alt = 'section-a' layout='fill'></Image>
     <div className='section-inner'>
         <h4>
             Recent Launch
@@ -60,7 +61,8 @@ function Section() {
     </section>
 
 
-    <section className='section-c'>
+    <section >
+    <Image src = '/image/section-c.webp' alt = 'section-a' layout='fill'></Image>
         <div className='section-inner'>
             <h4>
                 Recent Mission
@@ -88,7 +90,8 @@ function Section() {
     </section>
 
 
-    <section className='section-d'>
+    <section >
+    <Image src = '/image/section-d.webp' alt = 'section-a' layout='fill'></Image>
         <div className='section-inner'>
             <h4>
                 Upcoming Launch
@@ -115,7 +118,8 @@ function Section() {
         </div>
     </section>
 
-    <section className='section-e'>
+    <section >
+    <Image src = '/image/section-e.webp' alt = 'section-a' layout='fill'></Image>
         <div className='section-inner'>
             
             <h2>
@@ -140,7 +144,8 @@ function Section() {
         </div>
     </section>
 
-    <section className='section-f'>
+    <section >
+    <Image src = '/image/section-f.webp' alt = 'section-a' layout='fill'></Image>
         <div className='section-inner'>
            
             <h2>
